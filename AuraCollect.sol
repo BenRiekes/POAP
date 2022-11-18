@@ -9,7 +9,7 @@ pragma solidity ^0.8.12;
 contract AuraCollect is AuraStorage, ERC721URIStorage {
     using Counters for Counters.Counter;
 
-    constructor() ERC721 ("POAP Media Asset", "POAP") {}
+    constructor() ERC721 ("AURA Media Asset", "AURA") {}
     Counters.Counter public _tokenIds;
 
     //Events: ===========================================================================================
